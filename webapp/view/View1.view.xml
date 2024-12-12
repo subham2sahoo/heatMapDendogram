@@ -1,0 +1,12 @@
+<mvc:View xmlns:core="sap.ui.core" controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <HBox >
+    <core:HTML content='&lt;svg width=&quot;100&quot; height=&quot;300&quot; id=&quot;legend&quot; &gt;;&lt;/svg&gt;' />
+    <html:div id="heatmap" />
+    </HBox>
+        <core:HTML content="&lt;div id='d3tooltip'&gt;&lt;p&gt;&lt;span id='value' /&gt;&lt;/p&gt;&lt;/div&gt;" />
+    </Page>
+</mvc:View>
