@@ -122,9 +122,6 @@ sap.ui.define([
                     ]
                 }
             };
-
-
-
         },
         onAfterRendering: function () {
             let data = that.data;
@@ -258,7 +255,7 @@ sap.ui.define([
                         .style("top", (d3.event.pageY - 10) + "px")
                         .select("#value")
                         .html(
-                            "Cell type: " + colLabel[d.col-1] + "<br>Sample name: " + rowLabel[d.row-1]
+                            "Cell type: " + colLabel[d.col - 1] + "<br>Sample name: " + rowLabel[d.row - 1]
                             + "<br>Value: " + d.value
                         );
                     //Show the tooltip
